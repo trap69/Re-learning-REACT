@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+@keyframes  App-logo-spin-r {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-roman {
+
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    animation: App-logo-spin-r infinite 20s linear;
+  }
+
+}
